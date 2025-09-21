@@ -13,3 +13,5 @@ jobs:
         run: |
           echo "Running trivial test"
           test 1 -eq 1
+      - name: Force fail
+        run: exit 1
